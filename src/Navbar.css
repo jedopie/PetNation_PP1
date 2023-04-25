@@ -1,24 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-
-* {
+body {
   margin: 0;
-  font-family: "Quicksand";
-  color: #000000;
 }
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: auto;
   background-color: #489c2b;
   border-radius: 50px;
+  transform: translateY(20px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar div {
+  font-family: "Quicksand";
+  color: #ffffff;
+  background-color: #489c2b;
 }
 .navbar h1 {
   cursor: pointer;
   margin-right: auto;
   font-family: "Quicksand";
-  color: #FFFFFF;
+  color: #ffffff;
+  background-color: #489c2b;
 }
 .navbar .links {
   margin-left: auto;
@@ -28,7 +36,8 @@
   text-decoration: none;
   padding: 6px;
   font-family: "Quicksand";
-  color: #FFFFFF;
+  color: #ffffff;
+  background-color: #489c2b;
 }
 .navbar a:hover {
   color: #ef8e61;
